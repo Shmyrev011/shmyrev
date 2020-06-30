@@ -1,0 +1,33 @@
+object Form2: TForm2
+  Left = 709
+  Height = 83
+  Top = 116
+  Width = 320
+  BorderStyle = bsSingle
+  Caption = 'Об авторе'
+  ClientHeight = 83
+  ClientWidth = 320
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object Label1: TLabel
+    Left = 112
+    Height = 25
+    Top = 8
+    Width = 95
+    Caption = 'Об авторе'
+    Font.Height = -19
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 25
+    Top = 48
+    Width = 284
+    Caption = 'Шмырёв Вадим Группа ИР 19-30'
+    Font.Height = -19
+    ParentColor = False
+    ParentFont = False
+  end
+end

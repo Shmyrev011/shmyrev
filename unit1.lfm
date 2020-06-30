@@ -1,8 +1,190 @@
 object Form1: TForm1
-  Left = 440
-  Height = 240
-  Top = 126
-  Width = 320
+  Left = 437
+  Height = 394
+  Top = 117
+  Width = 255
+  BorderStyle = bsSingle
   Caption = 'Form1'
+  ClientHeight = 394
+  ClientWidth = 255
+  Position = poDesktopCenter
   LCLVersion = '2.0.6.0'
+  object Edit1: TEdit
+    Left = 16
+    Height = 23
+    Top = 207
+    Width = 80
+    Enabled = False
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 160
+    Height = 23
+    Top = 207
+    Width = 80
+    Enabled = False
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 18
+    Height = 23
+    Top = 264
+    Width = 80
+    Enabled = False
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 160
+    Height = 23
+    Top = 264
+    Width = 80
+    Enabled = False
+    TabOrder = 3
+  end
+  object Edit5: TEdit
+    Left = 16
+    Height = 23
+    Top = 328
+    Width = 80
+    Enabled = False
+    TabOrder = 4
+  end
+  object Edit6: TEdit
+    Left = 160
+    Height = 23
+    Top = 328
+    Width = 80
+    Enabled = False
+    TabOrder = 5
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 17
+    Top = 184
+    Width = 89
+    Caption = 'Км/ч в Мили/ч'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 160
+    Height = 17
+    Top = 184
+    Width = 67
+    Caption = 'Км/ч в М/с'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 15
+    Height = 17
+    Top = 245
+    Width = 83
+    Caption = 'М/с в Мили/ч'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 160
+    Height = 17
+    Top = 245
+    Width = 89
+    Caption = 'Мили/ч в Км/ч'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 16
+    Height = 17
+    Top = 304
+    Width = 67
+    Caption = 'М/с в Км/ч'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 160
+    Height = 17
+    Top = 304
+    Width = 83
+    Caption = 'Мили/ч в М/с'
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit7: TEdit
+    Left = 92
+    Height = 23
+    Top = 40
+    Width = 80
+    TabOrder = 6
+  end
+  object Edit8: TEdit
+    Left = 92
+    Height = 23
+    Top = 72
+    Width = 80
+    TabOrder = 7
+  end
+  object Edit9: TEdit
+    Left = 92
+    Height = 23
+    Top = 104
+    Width = 80
+    TabOrder = 8
+  end
+  object Label7: TLabel
+    Left = 28
+    Height = 25
+    Top = 8
+    Width = 144
+    Caption = 'Введите данные:'
+    Font.Height = -19
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 45
+    Height = 17
+    Top = 48
+    Width = 38
+    Caption = 'Км/ч='
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 32
+    Height = 17
+    Top = 78
+    Width = 54
+    Caption = 'Мили/ч='
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 51
+    Height = 17
+    Top = 110
+    Width = 32
+    Caption = 'М/с='
+    Font.Height = -13
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 26
+    Top = 360
+    Width = 227
+    Caption = 'Об авторе'
+    OnClick = Button1Click
+    TabOrder = 9
+  end
 end
