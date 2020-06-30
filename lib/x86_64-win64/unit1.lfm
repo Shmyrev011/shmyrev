@@ -1,66 +1,66 @@
 object Form1: TForm1
   Left = 437
-  Height = 394
+  Height = 465
   Top = 117
-  Width = 248
+  Width = 255
   BorderStyle = bsSingle
-  Caption = 'Form1'
-  ClientHeight = 394
-  ClientWidth = 248
+  Caption = 'Конвертер скорости '
+  ClientHeight = 465
+  ClientWidth = 255
   Position = poDesktopCenter
   LCLVersion = '2.0.6.0'
   object Edit1: TEdit
-    Left = 16
+    Left = 17
     Height = 23
-    Top = 207
+    Top = 255
     Width = 80
     Enabled = False
     TabOrder = 0
   end
   object Edit2: TEdit
-    Left = 160
+    Left = 161
     Height = 23
-    Top = 207
+    Top = 255
     Width = 80
     Enabled = False
     TabOrder = 1
   end
   object Edit3: TEdit
-    Left = 18
+    Left = 19
     Height = 23
-    Top = 264
+    Top = 312
     Width = 80
     Enabled = False
     TabOrder = 2
   end
   object Edit4: TEdit
-    Left = 160
+    Left = 161
     Height = 23
-    Top = 264
+    Top = 312
     Width = 80
     Enabled = False
     TabOrder = 3
   end
   object Edit5: TEdit
-    Left = 16
+    Left = 17
     Height = 23
-    Top = 328
+    Top = 376
     Width = 80
     Enabled = False
     TabOrder = 4
   end
   object Edit6: TEdit
-    Left = 160
+    Left = 161
     Height = 23
-    Top = 328
+    Top = 376
     Width = 80
     Enabled = False
     TabOrder = 5
   end
   object Label1: TLabel
-    Left = 16
+    Left = 17
     Height = 17
-    Top = 184
+    Top = 232
     Width = 89
     Caption = 'Км/ч в Мили/ч'
     Font.Height = -13
@@ -68,9 +68,9 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 160
+    Left = 161
     Height = 17
-    Top = 184
+    Top = 232
     Width = 67
     Caption = 'Км/ч в М/с'
     Font.Height = -13
@@ -78,9 +78,9 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label3: TLabel
-    Left = 15
+    Left = 16
     Height = 17
-    Top = 245
+    Top = 293
     Width = 83
     Caption = 'М/с в Мили/ч'
     Font.Height = -13
@@ -88,9 +88,9 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label4: TLabel
-    Left = 160
+    Left = 161
     Height = 17
-    Top = 245
+    Top = 293
     Width = 89
     Caption = 'Мили/ч в Км/ч'
     Font.Height = -13
@@ -98,9 +98,9 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label5: TLabel
-    Left = 16
+    Left = 17
     Height = 17
-    Top = 304
+    Top = 352
     Width = 67
     Caption = 'М/с в Км/ч'
     Font.Height = -13
@@ -108,9 +108,9 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label6: TLabel
-    Left = 160
+    Left = 161
     Height = 17
-    Top = 304
+    Top = 352
     Width = 83
     Caption = 'Мили/ч в М/с'
     Font.Height = -13
@@ -122,6 +122,7 @@ object Form1: TForm1
     Height = 23
     Top = 40
     Width = 80
+    OnKeyPress = Edit7KeyPress
     TabOrder = 6
   end
   object Edit8: TEdit
@@ -129,6 +130,7 @@ object Form1: TForm1
     Height = 23
     Top = 72
     Width = 80
+    OnKeyPress = Edit8KeyPress
     TabOrder = 7
   end
   object Edit9: TEdit
@@ -136,10 +138,11 @@ object Form1: TForm1
     Height = 23
     Top = 104
     Width = 80
+    OnKeyPress = Edit9KeyPress
     TabOrder = 8
   end
   object Label7: TLabel
-    Left = 28
+    Left = 56
     Height = 25
     Top = 8
     Width = 144
@@ -179,12 +182,47 @@ object Form1: TForm1
     ParentFont = False
   end
   object Button1: TButton
-    Left = 16
+    Left = 17
     Height = 26
-    Top = 360
+    Top = 408
     Width = 227
     Caption = 'Об авторе'
     OnClick = Button1Click
     TabOrder = 9
+  end
+  object Button2: TButton
+    Left = 19
+    Height = 25
+    Top = 184
+    Width = 222
+    Caption = 'Вычислить'
+    OnClick = Button2Click
+    TabOrder = 10
+  end
+  object Label11: TLabel
+    Left = 19
+    Height = 15
+    Top = 216
+    Width = 110
+    Caption = 'Результат перевода:'
+    ParentColor = False
+  end
+  object Button3: TButton
+    Left = 19
+    Height = 25
+    Top = 152
+    Width = 221
+    Caption = 'Очистить'
+    OnClick = Button3Click
+    TabOrder = 11
+  end
+  object Button4: TButton
+    Left = 19
+    Height = 25
+    Top = 440
+    Width = 223
+    Caption = 'Выход'
+    OnClick = Button4Click
+    TabOrder = 12
   end
 end
